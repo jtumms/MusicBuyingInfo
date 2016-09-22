@@ -141,7 +141,7 @@ public class Main {
             JsonParser parser = new JsonParser();
             listener = parser.parse(contents, ListenerInfo.class);
         } catch (Exception e) {
-            System.out.println("Couldn't load file!");
+            System.out.println("File not found");
         }
 
     }
